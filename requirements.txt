@@ -1,0 +1,12 @@
+# Developed with Python 3.10 and TensorFlow 2.10.
+# Taslak: tam sürümler için lojistik_tf210 ortamında `pip freeze` çıktısındaki satırlarla değiştir.
+pandas
+numpy<2
+scikit-learn
+xgboost
+tensorflow==2.10.*
+prophet
+matplotlib
+seaborn
+openpyxl
+jupyter
