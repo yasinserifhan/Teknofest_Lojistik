@@ -13,7 +13,7 @@ Route-level **7-day shipment-demand forecasting** for Hepsiburada's linehaul net
 - Features are **leakage-free**: lags and rolling statistics use only data available before the forecast date, and XGBoost forecasts recursively on its own predictions.
 - The production model was chosen with **rolling-origin validation** rather than a single holdout week: rolling mean WMAPE **34.48% → 32.96%** and rolling mean MAE **1102.48 → 1069.97** against the previous XGBoost.
 - Final deliverable: a validated forecast of **3,862 route-hour rows** for 29 June – 5 July 2026.
-
+- This was a team project; I developed the forecasting component.
 <!-- Takım çalışmasıysa buraya bir satır ekle: "Team project. My part: ..." Bireysel çalışmaysa: "Solo project." -->
 
 ---
